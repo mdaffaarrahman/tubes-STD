@@ -1,1 +1,35 @@
+#ifndef STORE_PARENT_H_INCLUDED
+#define STORE_PARENT_H_INCLUDED
 
+#include <iostream>
+using namespace std;
+
+struct customer {
+    string idCustomer;
+    string nama;
+};
+
+typedef struct customer infotypeCustomer;
+typedef struct elmListCustomer *addressCustomer;
+struct elmListCustomer {
+    infotypeCustomer info;
+    addressCustomer next;
+};
+
+struct ListCustomer {
+    addressCustomer first;
+};
+
+// Deklarasi fungsi dasar SLL
+void createListCustomer(ListCustomer &L);
+addressCustomer createElmListCustomer(infotypeCustomer dataCustomer);
+bool isEmptyListCustomer(ListCustomer L);
+void insertLastCustomer(ListCustomer &L, addressCustomer p);
+void deleteFirstCustomer(ListCustomer &L, addressCustomer &p);
+void deleteAfterCustomer(ListCustomer &L, addressCustomer prec, addressCustomer &p);
+addressCustomer searchCustomerByID(ListCustomer L, string idCustomer);
+bool cekDuplikatDataCustomer(ListCustomer L, string idCustomer);
+void printInfoCustomer(addressCustomer p);
+void printDataCustomer(ListCustomer L);
+
+#endif

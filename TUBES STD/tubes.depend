@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1764001263 source:c:\users\mumu\documents\tubes\laundry.cpp
+	"laundry.h"
+	"relation.h"
+	<iomanip>
+
+1764001401 c:\users\mumu\documents\tubes\laundry.h
+	<iostream>
+
+1764000878 source:c:\users\mumu\documents\tubes\customer.cpp
+	"customer.h"
+	<iomanip>
+
+1764000703 c:\users\mumu\documents\tubes\customer.h
+	<iostream>
+
+1764000898 c:\users\mumu\documents\tubes\relation.h
+	<iostream>
+	"customer.h"
+	"laundry.h"
+
+1763999511 source:c:\users\mumu\documents\tubes\main.cpp
+	<iostream>
+	"customer.h"
+	"laundry.h"
+	"relation.h"
+
+1764000878 source:c:\users\mumu\documents\tubes-std\tubes std\customer.cpp
+	"customer.h"
+	<iomanip>
+
+1764000703 c:\users\mumu\documents\tubes-std\tubes std\customer.h
+	<iostream>
+
+1764001263 source:c:\users\mumu\documents\tubes-std\tubes std\laundry.cpp
+	"laundry.h"
+	"relation.h"
+	<iomanip>
+
+1764001401 c:\users\mumu\documents\tubes-std\tubes std\laundry.h
+	<iostream>
+
+1764000898 c:\users\mumu\documents\tubes-std\tubes std\relation.h
+	<iostream>
+	"customer.h"
+	"laundry.h"
+
+1764001420 source:c:\users\mumu\documents\tubes-std\tubes std\main.cpp
+	<iostream>
+	<iomanip>
+	"customer.h"
+	"laundry.h"
+	"relation.h"
+
