@@ -34,9 +34,11 @@
 		</Compiler>
 		<Unit filename="customer.cpp" />
 		<Unit filename="customer.h" />
-		<Unit filename="laundry.cpp" />
+		<Unit filename="customer_Fathi Arzaq Shiddiq_103032430030.cpp" />
+		<Unit filename="customer_M.Daffa AR-Rahman_103032430015.cpp" />
 		<Unit filename="laundry.h" />
-		<Unit filename="main.cpp" />
+		<Unit filename="laundry_Fathi Arzaq Shiddiq_103032430030.cpp" />
+		<Unit filename="laundry_M.Daffa AR-Rahman_103032430015.cpp" />
 		<Unit filename="relation.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

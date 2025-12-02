@@ -19,8 +19,12 @@ struct ListRelasi {
 void createListRelasi(ListRelasi &LR);
 addressRelasi createElmListRelasi(addressCustomer c, addressLaundry l);
 bool isEmptyListRelasi(ListRelasi LR);
-void insertRelasi(ListRelasi &LR, addressRelasi P);
-void deleteRelasi(ListRelasi &LR, addressCustomer c, addressLaundry l);
+void insertFirstRelasi(ListRelasi &LR, addressRelasi P);
+void insertLastRelasi(ListRelasi &LR, addressRelasi P);
+void insertAfterRelasi(ListRelasi &LR, addressRelasi prec, addressRelasi P);
+void deleteFirstRelasi(ListRelasi &LR, addressRelasi &P);
+void deleteAfterRelasi(ListRelasi &LR, addressRelasi prec, addressRelasi &P);
+void deleteLastRelasi(ListRelasi &LR, addressRelasi &P);
 void deleteAllRelasiByCustomer(ListRelasi &LR, addressCustomer c);
 void deleteAllRelasiByLaundry(ListRelasi &LR, addressLaundry l);
 void printAllRelasi(ListRelasi LR);
