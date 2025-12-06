@@ -25,7 +25,7 @@ struct ListLaundry {
 void createListLaundry(ListLaundry &L);
 addressLaundry createElmListLaundry(infotypeLaundry dataLaundry);
 bool isEmptyListLaundry(ListLaundry L);
-void insertFirstLaundryListLaundry &L, addressLaundry p);
+void insertFirstLaundry(ListLaundry &L, addressLaundry p);
 void insertAfterLaundry(ListLaundry &L, addressLaundry prec, addressLaundry p);
 void insertLastLaundry(ListLaundry &L, addressLaundry p);
 void deleteFirstLaundry(ListLaundry &L, addressLaundry &p);
