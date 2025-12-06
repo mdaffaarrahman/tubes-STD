@@ -1,11 +1,52 @@
 #include "customer.h"
 
-void insertFirstCustomer(ListCustomer &L, addressCustomer p){
-
+void createListCustomer(ListCustomer &L) {
+    L.first = nullptr;
 }
-void insertAfterCustomer(ListCustomer &L, addressCustomer p){
 
+bool isEmptyListCustomer(ListCustomer L) {
+    return L.first == nullptr;
 }
-void insertLastCustomer(ListCustomer &L, addressCustomer p){
 
+void insertFirstCustomer(ListCustomer &L, addressCustomer p) {
+    p->next = L.first;
+    L.first = p;
 }
+
+void insertAfterCustomer(ListCustomer &L, addressCustomer prec, addressCustomer p) {
+    if (prec != nullptr) {
+        p->next = prec->next;
+        prec->next = p;
+    }
+}
+
+void insertLastCustomer(ListCustomer &L, addressCustomer p) {
+    if (isEmptyListCustomer(L)) {
+        L.first = p;
+    } else {
+        addressCustomer q = L.first;
+        while (q->next != nullptr) {
+            q = q->next;
+        }
+        q->next = p;
+    }
+    p->next = nullptr;
+}
+
+void printInfoCustomer(addressCustomer p) {
+    if (p != nullptr) {
+        cout << "ID Customer : " << p->info.idCustomer << endl;
+        cout << "Nama        : " << p->info.nama << endl;
+    }
+}
+
+void printDataCustomer(ListCustomer L) {
+    addressCustomer p = L.first;
+    while (p != nullptr) {
+        cout << "-------------------------" << endl;
+        printInfoCustomer(p);
+        p = p->next;
+    }
+}
+
+
