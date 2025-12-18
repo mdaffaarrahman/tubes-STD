@@ -37,6 +37,8 @@ void printInfoCustomer(addressCustomer p) {
     if (p != nullptr) {
         cout << "ID Customer : " << p->info.idCustomer << endl;
         cout << "Nama        : " << p->info.nama << endl;
+        cout << "No Telpon   : " << p->info.noTelepon << endl;
+        cout << "Alamat      : " << p->info.alamat << endl;
     }
 }
 

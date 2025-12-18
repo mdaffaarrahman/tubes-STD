@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1764678715 source:c:\users\mumu\documents\tubes-std\tubes std\customer_fathi arzaq shiddiq_103032430030.cpp
+1766055255 source:c:\users\mumu\documents\tubes-std\tubes std\customer_fathi arzaq shiddiq_103032430030.cpp
 	"customer.h"
 
-1764668162 c:\users\mumu\documents\tubes-std\tubes std\customer.h
+1766055151 c:\users\mumu\documents\tubes-std\tubes std\customer.h
 	<iostream>
 
 1764673902 source:c:\users\mumu\documents\tubes-std\tubes std\customer_m.daffa ar-rahman_103032430015.cpp
@@ -17,7 +17,7 @@
 1764678710 source:c:\users\mumu\documents\tubes-std\tubes std\laundry_m.daffa ar-rahman_103032430015.cpp
 	"laundry.h"
 
-1764678856 source:c:\users\mumu\documents\tubes-std\tubes std\main.cpp
+1766055259 source:c:\users\mumu\documents\tubes-std\tubes std\main.cpp
 	<iostream>
 	"customer.h"
 	"laundry.h"
@@ -28,8 +28,9 @@
 	"customer.h"
 	"laundry.h"
 
-1764673705 source:c:\users\mumu\documents\tubes-std\tubes std\relasi_fathi aarzaq shiddiq_103032430030.cpp
+1766056033 source:c:\users\mumu\documents\tubes-std\tubes std\relasi_fathi aarzaq shiddiq_103032430030.cpp
+	"relation.h"
 
-1764678713 source:c:\users\mumu\documents\tubes-std\tubes std\relasi_m.daffa ar-rahman_103032430015.cpp
+1766056043 source:c:\users\mumu\documents\tubes-std\tubes std\relasi_m.daffa ar-rahman_103032430015.cpp
 	"relation.h"
 

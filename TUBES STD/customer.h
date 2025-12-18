@@ -7,6 +7,8 @@ using namespace std;
 struct customer {
     string idCustomer;
     string nama;
+    string noTelepon;
+    string alamat;
 };
 
 typedef struct customer infotypeCustomer;
